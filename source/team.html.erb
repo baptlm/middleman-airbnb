@@ -1,0 +1,12 @@
+---
+title: Le Wagon - Team
+---
+
+<div class="avatars">
+  <% ["baptlm", "BasileM", "EdouardPan"].each do |gh_username| %>
+    <div class="avatar">
+      <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle" %>
+      <h3 class="username-small"><%= gh_username.capitalize %></h3>
+    </div>
+  <% end %>
+</div>
